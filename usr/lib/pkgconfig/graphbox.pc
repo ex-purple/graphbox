@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: graphbox
+Requires: gtkmm-2.4
+Description: Библиотека рисования графиков
+Version: 1.0.0
+Libs: -L${libdir} -lgraphbox
+Cflags: -I${includedir}
